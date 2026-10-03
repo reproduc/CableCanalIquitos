@@ -229,7 +229,7 @@ document.getElementById('fsBtn').onclick = e => {
 };
 document.getElementById('reloadBtn').onclick = () => { setStatus('Reconectando…'); loadStream(); };
 document.getElementById('shareBtn').onclick = async () => {
-  const data = { title:'Tv Mundo', text:'Mira Tv Mundo en vivo 📺', url: location.href };
+  const data = { title:'Cable Canal Iquitos', text:'Mira Cable Canal Iquitos en vivo 📺', url: location.href };
   if (navigator.share) navigator.share(data).catch(()=>{});
   else { await navigator.clipboard.writeText(location.href); alert('Enlace copiado 📋'); }
 };
