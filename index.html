@@ -35,20 +35,10 @@
     border-bottom:1px solid #26262f;
     flex-shrink:0;
   }
-  .logo{width:42px;height:42px;border-radius:10px;
-    background:linear-gradient(135deg,var(--accent),#ffffff);
-    display:flex;align-items:center;justify-content:center;
-    font-weight:900;font-size:13px;letter-spacing:.5px;flex-shrink:0}
-  .brand h1{font-size:19px;font-weight:800}
-  .brand small{color:var(--muted);font-size:11px;display:block;margin-top:1px}
-  .live-badge{
-    margin-left:auto;display:flex;align-items:center;gap:6px;
-    background:rgba(239, 44, 38, 0.8);border:1px solid rgba(239, 44, 38, 0.8);
-    color:var(--accent2);padding:5px 12px;border-radius:999px;
-    font-size:12px;font-weight:700;flex-shrink:0}
-  .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);
-    animation:pulse 1.2s infinite}
-  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.logo-img{width:42px;height:42px;border-radius:10px;object-fit:contain;flex-shrink:0}
+.brand h1{font-size:19px;font-weight:800}.brand small{color:var(--muted);font-size:11px;display:block;margin-top:1px}
+.live-badge{margin-left:auto;display:flex;align-items:center;gap:6px;background:rgba(225,29,72,.15);border:1px solid rgba(225,29,72,.4);color:var(--accent2);padding:5px 12px;border-radius:999px;font-size:12px;font-weight:700;flex-shrink:0}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);animation:pulse 1.2s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
 
   /* ===== PLAYER ===== */
   .player-wrap{position:relative;background:#000;flex-shrink:0}
